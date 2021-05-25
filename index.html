@@ -1,0 +1,610 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GEC-Cares</title>
+<meta name="keywords" content="Goa Engineering College" />
+<meta name="description" content="GEC -Covid Care" />
+<link rel="icon" type="image/png" href="images/fav.png" sizes="32x32">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+<style>
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: #8ebf42;
+      font-family: sans-serif;
+      }
+	  
+	  #blink {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}				
+.block {
+  display: block;
+ height:40px;
+    width:140px;
+  border: none;
+  background-color: #f93154;
+  color: white;
+  padding: 14px ;
+  font-size: 16px;
+   font-color: white;
+  cursor: pointer;
+  text-align: center;
+}
+.rcorners {
+  border-radius: 25px;
+}
+
+#dead{
+    background-image: linear-gradient(white,red);
+    margin:3px;
+    border-radius: 5px;
+}
+#act{
+    background-image: linear-gradient(white,blue);
+    margin:3px;
+    border-radius: 5px;
+}
+#rec{
+    background-image: linear-gradient(white,green);
+    margin:3px;
+    border-radius: 5px;
+}
+#mrg{
+    margin:3px;
+}
+.rw{
+    background-color: #8ebf42;
+    border-radius: 9px;
+    margin:5px;
+}
+
+#pc{
+    height: 300px;
+   width: 300px;
+   background-image: url("images/pc.jpeg");
+   background-size: contain;
+}
+
+#pc1{
+    height: 950px;
+   width: 600px;
+    background-image: url("gm1.jpg");
+   background-size: contain;
+}
+#ft{
+    background-color: rgb(11, 148, 148);
+    
+}
+#top-rw{
+    background-image: linear-gradient(pink,red);
+    color:white;
+}
+
+.nav-item:hover{
+    background-color: rgb(54, 58, 58);
+    border-radius: 7px;
+    color:#fff
+}
+
+</style>
+</head>
+<body>
+
+   
+    <div class="container-fluid">
+    <div id="templatemo_header_wrapper">
+        <div id="templatemo_header">
+            <div class="row">
+            <div class="col-sm-4">
+                <div id="site_title">
+                
+                    <span><h1>GEC-Covid Care</h1></span>
+                </a>
+          </div>
+            </div>
+            <div class="col-sm-1"> </div>
+            <div class="col-sm-6">
+                <div id="templatemo_menu">
+                    <ul>
+                        <li><a href="index.html" class="current">Home</a></li>
+                        <li><a href="red.html" target="_parent">Volunteers</a></li>
+                        <li><a href="red.html" target="_parent">Resources</a></li>
+                         <li><a href="red.html">Contact</a></li>
+                    </ul>    	
+                
+                </div> <!-- end of templatemo_menu -->
+            </div>
+        </div>
+          </div>
+                
+                
+           
+        
+        </div>
+    </div>
+
+<br>
+<center>
+<p id="blink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;POSITIVITY RATE:30.71%</p>
+</center>
+<script type="text/javascript">
+    var blink = document.getElementById('blink');
+    setInterval(function() {
+        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+    }, 1500); </script>
+
+<div class="row">
+<div class="col-sm-1">
+    
+  </div>
+<div class="col-sm-2" id="mrg">
+    COVID-19 INDIA as on : 25 May 2021 
+  </div>
+<div class="col-sm-2" id="act">
+  <center><h3>Active cases</h3></center>
+  <center><h2><b>345532</b></h2></center>
+</div>
+<div class="col-sm-2" id="rec">
+    <center><h3>Recovered</h3></center>
+    <center><h2> <b>345532</b></h2></center>
+  </div>
+<div class="col-sm-2" id="dead">
+    <center><h3>Deaths</h3></center>
+    <center><h2><b>345532</b></h2></center>
+  </div>
+  
+
+  
+</div>
+</div>
+<br>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<br>
+<marquee>WE AT GEC ARE IN THIS TOGETHER.</marquee>
+<br>
+<div class="row">
+    <div class="col-sm-1">
+
+    </div>
+    <div class="col-sm-7">
+        <div class="row">
+         <h2> <b>Get Help</b></h2>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="rw">
+                    <a href = "https://goaonline.gov.in/beds" target = "_self"><center>Bed Availability</center></a>
+                </div>
+                <div class="rw">
+                    <center> <a href = "doc.html" target = "_self">Doctors</a></center>
+                </div>
+                <div class="rw">
+                    <center> <a href = "amb.html" target = "_self">Ambulances</a></center>
+                </div>
+                <div class="rw">
+                    <center> <a href = "amb.html" target = "_self">Hospitals</a></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "med.html" target = "_self">Medicines</a></center>
+                </div>
+                <div class="rw">
+                   <center><a href = "dis.html" target = "_self">Disinfection</a></center>
+                </div>
+                <div class="rw">
+                   <center><a href = "oxy.html" target = "_self">Oxygen Distributors</a></center>
+                </div>
+                <div class="rw">
+                   <center> <a href = "pla.html" target = "_self">Plasma</a></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "blo.html" target = "_self">Blood Bank</a></center>
+                </div>
+               
+            
+            </div>
+            <div class="col-sm-6">
+                <div class="rw">
+                    <center><a href = "https://www.cowin.gov.in/home" target = "_self">Vaccine Availability</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "foo.html" target = "_self">Food</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "men.html" target = "_self">Mental Health</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "cre.html" target = "_self">Crematorium</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "vet.html" target = "_self">Vet</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "cov.html" target = "_self">Covid Testing</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "ct.html" target = "_self">Care Takers</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "https://www.google.com/maps/d/u/2/edit?mid=1JwGBqcYRBHM-C4wC-L60HUfdKteET0MR&usp=sharing" target = "_self">Hospital Maps</a><br></center>
+                </div>
+                <div class="rw">
+                    <center><a href = "https://www.goa.gov.in/covid-19/" target = "_self">Govt Website</a><br></center>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <br><br><br>
+        <img style=" border: 10px double white" align="left" class="rcorners" border="20" src="1.png" alt="image" /></div></div>
+    </div>
+    <div class="col-sm-1">
+       
+    </div>
+</div>
+
+</div>
+ 
+ 
+
+<p></p>
+ <script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	title: {
+		text: "GOA-Covid Data"
+	},
+	axisX: {
+		valueFormatString: "DD MMM YYYY"
+	},
+	axisY2: {
+		title: "Goa-Covid-Data",
+		prefix: "",
+		suffix: ""
+	},
+	toolTip: {
+		shared: true
+	},
+	legend: {
+		cursor: "pointer",
+		verticalAlign: "top",
+		horizontalAlign: "center",
+		dockInsidePlotArea: true,
+		itemclick: toogleDataSeries
+	},
+	data: [{
+		type:"line",
+		axisYType: "secondary",
+		name: "Total Active Cases",
+		showInLegend: true,
+		markerSize: 0,
+		yValueFormatString: "#,###",
+		dataPoints: [
+            { x: new Date(2021, 04, 1), y: 23884 },
+			{ x: new Date(2021, 04, 2), y: 24607 },
+			{ x: new Date(2021, 04, 3), y: 25839 },
+			{ x: new Date(2021, 04, 4), y: 26831 },
+			{ x: new Date(2021, 04, 5), y: 27964 },
+			{ x: new Date(2021, 04, 6), y: 29752 },
+			{ x: new Date(2021, 04, 7), y: 31716 },
+			{ x: new Date(2021, 04, 8), y: 32387 },
+			{ x: new Date(2021, 04, 9), y: 31875},
+			{ x: new Date(2021, 04, 10), y: 32262},
+			{ x: new Date(2021, 04, 11), y: 32836 },
+			{ x: new Date(2021, 04, 12), y: 32791 },
+			{ x: new Date(2021, 04, 13), y: 32953 },
+			{ x: new Date(2021, 04, 14), y: 32387 },
+			{ x: new Date(2021, 04, 15), y: 30774 },
+			{ x: new Date(2021, 04, 16), y: 28252 },
+			{ x: new Date(2021, 04, 17), y: 25573 },
+			{ x: new Date(2021, 04, 18), y: 23946 },{ x: new Date(2021, 04, 19), y: 22964 },{ x: new Date(2021, 04, 20), y: 20808 },
+			{ x: new Date(2021, 04, 21), y: 19328 },{ x: new Date(2021, 04, 22), y: 18243 },{ x: new Date(2021, 04, 23), y: 17227 },
+			{ x: new Date(2021, 04, 24), y: 16278 },{ x: new Date(2021, 04, 25), y: 15706 }
+		]
+	},
+	{
+		type: "line",
+		axisYType: "secondary",
+		name: "New Cases",
+		showInLegend: true,
+		markerSize: 0,
+		yValueFormatString: "#,###",
+		dataPoints: [
+	          { x: new Date(2021, 04, 1), y: 2303 },
+			{ x: new Date(2021, 04, 2), y: 2030},
+			{ x: new Date(2021, 04, 3), y: 2703 },
+			{ x: new Date(2021, 04, 4), y: 2814 },
+			{ x: new Date(2021, 04, 5), y: 3496 },
+			{ x: new Date(2021, 04, 6), y: 3869 },
+			{ x: new Date(2021, 04, 7), y: 4195 },
+			{ x: new Date(2021, 04, 8), y: 3751 },
+			{ x: new Date(2021, 04, 9), y: 2633},
+			{ x: new Date(2021, 04, 10), y: 2804},
+			{ x: new Date(2021, 04, 11), y: 3124 },
+			{ x: new Date(2021, 04, 12), y: 2865 },
+			{ x: new Date(2021, 04, 13), y: 2491 },
+			{ x: new Date(2021, 04, 14), y: 2455 },
+			{ x: new Date(2021, 04, 15), y: 1957 },
+			{ x: new Date(2021, 04, 16), y: 1314 },
+			{ x: new Date(2021, 04, 17), y: 1562 },
+			{ x: new Date(2021, 04, 18), y: 1358 },{ x: new Date(2021, 04, 19), y: 1209 },{ x: new Date(2021, 04, 20), y: 1582 },
+			{ x: new Date(2021, 04, 21), y: 1625 },{ x: new Date(2021, 04, 22), y: 1647 },{ x: new Date(2021, 04, 23), y: 1621 },
+			{ x: new Date(2021, 04, 24), y: 1401 },{ x: new Date(2021, 04, 25), y: 1549 }
+		]
+	},
+	{
+		type: "line",
+		axisYType: "secondary",
+		name: "Total Recovery Cases",
+		showInLegend: true,
+		markerSize: 0,
+		yValueFormatString: "#,###",
+		dataPoints: [
+		       { x: new Date(2021, 04, 1), y: 1310 },
+			{ x: new Date(2021, 04, 2), y: 1255},
+			{ x: new Date(2021, 04, 3), y: 1425 },
+			{ x: new Date(2021, 04, 4), y: 1871 },
+			{ x: new Date(2021, 04, 5), y: 2192},
+			{ x: new Date(2021, 04, 6), y: 2023 },
+			{ x: new Date(2021, 04, 7), y: 2175 },
+			{ x: new Date(2021, 04, 8), y: 3025 },
+			{ x: new Date(2021, 04, 9), y: 3078},
+			{ x: new Date(2021, 04, 10), y: 2367},
+			{ x: new Date(2021, 04, 11), y: 2475 },
+			{ x: new Date(2021, 04, 12), y: 2840 },
+			{ x: new Date(2021, 04, 13), y: 2266 },
+			{ x: new Date(2021, 04, 14), y: 2960 },
+			{ x: new Date(2021, 04, 15), y: 3512 },
+			{ x: new Date(2021, 04, 16), y: 3793 },
+			{ x: new Date(2021, 04, 17), y: 4008 },
+			{ x: new Date(2021, 04, 18), y: 3120 },{ x: new Date(2021, 04, 19), y: 2160 },{ x: new Date(2021, 04, 20), y: 3694 },
+			{ x: new Date(2021, 04, 21), y: 3075 },{ x: new Date(2021, 04, 22), y: 2693 },{ x: new Date(2021, 04, 23), y: 2545 },
+			{ x: new Date(2021, 04, 24), y: 2301 },{ x: new Date(2021, 04, 25), y: 2082 }
+		]
+	},
+	{
+		type: "line",
+		axisYType: "secondary",
+		name: "Total Deaths",
+		showInLegend: true,
+		markerSize: 0,
+		yValueFormatString: "#,###",
+		dataPoints: [
+			      
+			{ x: new Date(2021, 04, 1), y: 1222},
+			{ x: new Date(2021, 04, 2), y: 1274 },
+			{ x: new Date(2021, 04, 3), y: 1320 },
+			{ x: new Date(2021, 04, 4), y: 1372},
+			{ x: new Date(2021, 04, 5), y: 1443 },
+			{ x: new Date(2021, 04, 6), y: 1501 },
+			{ x: new Date(2021, 04, 7), y: 1557 },
+			{ x: new Date(2021, 04, 8), y: 1612},
+			{ x: new Date(2021, 04, 9), y: 1679},
+			{ x: new Date(2021, 04, 10), y: 1729 },
+			{ x: new Date(2021, 04, 11), y: 1804 },
+			{ x: new Date(2021, 04, 12), y: 1874 },
+			{ x: new Date(2021, 04, 13), y: 1937 },
+			{ x: new Date(2021, 04, 14), y: 1998 },
+			{ x: new Date(2021, 04, 15), y: 2056 },
+			{ x: new Date(2021, 04, 16), y: 2056 },
+			{ x: new Date(2021, 04, 17), y: 2152 },{ x: new Date(2021, 04, 18), y:2197 },{ x: new Date(2021, 04, 19), y: 2228 },
+			{ x: new Date(2021, 04, 20), y: 2272 },{ x: new Date(2021, 04, 21), y: 2302 },{ x: new Date(2021, 04, 22), y: 2341 },
+			{ x: new Date(2021, 04, 23), y: 2383 },{ x: new Date(2021, 04, 24), y: 2421 },{ x: new Date(2021, 04, 25), y: 2460 }
+		
+		]
+	}]
+});
+chart.render();
+
+function toogleDataSeries(e){
+	if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+		e.dataSeries.visible = false;
+	} else{
+		e.dataSeries.visible = true;
+	}
+	chart.render();
+}
+
+}
+</script>
+</head>
+<body>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+  <marquee bgcolor="#d9d9ff"> <a href="https://play.google.com/store/apps/details?id=com.cocstudiosgoa.goacoronaApp"><h6>GOA GOVT LAUNCHES CORONA APP. FOR BED AVAILABILITY -> CLICK TO DOWNLOAD APP FROM PLAYSTORE</marquee><P></p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="row">
+                <h2><font color="red">Welcome to <span>GEC-Covid-Care</font></span></h2>
+        <div class="readmore"><a href="#"></a></div>
+        <p> We at GEC are in this together. Stay Strong India. We will get through this. </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2><font color="red">Black Fungus</font></h3>
+                        <div class="two_col_image">
+                            <a href="#"><img src="images/templatemo_image_02.png" alt="image" width="249" height="105" /></a>            </div>
+                      <p>Black fungus is attacking covid recovery patients.It may cause loss of vision and organ damage.Could be fatal.Goa has seen acouple of cases already </p>
+                       
+                </div>
+                <div class="col-sm-6">
+                    <h2><font color="red">Watch out..</font></h3>
+                        <div class="two_col_image">
+                            <a href="#"><img src="images/templatemo_image_03.png" alt="image" width="249" height="105" /></a> </div>
+                      <p>The incubation period of the virus is 2-5 days and is highly infectious.Take the pledge to double up your mask and sanitize your hands</p>
+                       
+                </div>
+            </div>
+            <div class="row">
+                <p><a href="images/refer.pdf"><font color="blue"><h3>Directory of Covid related Officials South Goa District</h3></a></font></p>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/jcn1-9HxwPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+               
+            </div>
+    
+            <br>
+            <button onclick="window.location.href='https://www.mohfw.gov.in/';"class="favorite styled"         type="button">MOHFW Site -></button>
+        </div>
+        <div class="col-sm-4">
+           <div class="row">
+            <h2>Latest <span>News</span></h2>
+           </div>
+           <div class="row">
+            <div class="newsbox">
+                <div class="news_image"><span></span><img src="images/sym1.png" alt="image" /></div>
+                <p>A temperature accompanied with a head ache and fatigue with other flu like symptoms should not be ignored. </p><p></p>
+                <div class="cleaner"></div><div class="readmore"><a href="#">read more</a></div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="newsbox">
+                <div class="news_image"><span></span><img src="images/2.png" alt="image" /></div>
+                <p>As repsonsible citizens let's get vaccinated and defeat this virus. </p>
+                <div class="cleaner"></div><div class="readmore"><a href="vaccines.html">read more</a></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="newsbox">
+                <div class="news_image"><span></span><img src="images/3.png" alt="image" /></div>
+                <p>Our necessity during covid.Keep a check of your SPO2 levels every 3hours. Note it down an raise an alarm if below 94. </p>
+                <div class="cleaner"></div><div class="readmore"><a href="#">read more</a></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-3" id="pc"></div>
+        </div>
+           
+        </div>
+        <div class="col-sm-1">
+            
+        </div>
+    </div>
+    <div class="row">
+        <marquee scrollamount="10">
+            <div class="cleaner_h30"></div>
+            
+            <div id="latest_projects">
+          
+            <div id="latest_project_text"> 
+                    <h2>Prevailing <br> Symptoms</h2>
+                    
+                </div>
+                
+                <div class="project_image_box margin_r15">
+                    <div class="project_image"><span></span>
+                        <img src="images/sym2.png" alt="image 1" />
+                    </div>
+                    
+              </div>
+                
+            <div class="project_image_box margin_r15">
+                    <div class="project_image"><span></span>
+                        <img src="images/sym5.png" alt="image 2" />
+                    </div>
+                    
+              </div>
+                
+            <div class="project_image_box margin_r15">
+                    <div class="project_image"><span></span>
+                        <img src="images/sym8.png" alt="image 3" />
+                    </div>
+                
+              </div>
+              
+            
+                
+              <div class="project_image_box">
+            <div class="project_image"><span></span>
+                        <img src="images/sym3.png" alt="image 4" />
+                    </div>
+                    
+                
+                  
+              </div>
+              
+        </marquee>
+    </div>
+</div>
+
+<br>	
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" id="pc1">
+          
+    </div>
+    <div class="col-sm-2">
+        <div id="sfcy4h5cajbtj1klj5k1fltrne6uwt664xp"></div><script type="text/javascript" src="https://counter6.stat.ovh/private/counter.js?c=y4h5cajbtj1klj5k1fltrne6uwt664xp&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="website hit counter"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=y4h5cajbtj1klj5k1fltrne6uwt664xp" border="0" title="website hit counter" alt="website hit counter"></a></noscript>
+<script>(function(w, d) { w.CollectId = "60a69e08154f895c94bb96ae"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+    </div>
+</div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-12" id="ft">
+            <center>
+            Goa College of Engineering <br>-Farmagudi<br><a href="www.gec.ac.in"><br>We acknowledge Covid Care- Goa Team</a><br /> 
+             </center>
+             <br>
+        </div>
+    </div>
+
+
+
+
+<div align=center>Powered by <a href='www.gec.ac.in'>Goa College of Engineering </a></div>
+
+</body>
+</html>
