@@ -9,7 +9,7 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size:13px;
 	line-height:1.5em; 
-	background-color: #fff;
+	background-color: rgb(15, 2, 2);
 }
 
 a, a:link, a:visited { color: #000000; font-weight: normal; }
@@ -21,7 +21,7 @@ img { border: none; }
 h2, h3, h4, h5 { font-weight: normal; font-family: Arial, Helvetica, sans-serif; }
 
 h1 { font-size: 28px; color: #fff; margin: 0 0 20px 0; padding: 5px 0; }
-h2 { font-size: 22px; color: #000; margin: 0 0 20px 0; padding: 0 0 10px 0; border-bottom: 1px dashed #999; font-family: Arial, Helvetica, sans-serif; }
+h2 { font-size: 22px; color: #000; margin: 0 0 20px 0; padding: 0 0 10px 0;  font-family: Arial, Helvetica, sans-serif; }
 h2 span { font-weight: bold; }
 h3 { font-size: 21px; color: #333; margin: 0 0 15px 0; padding: 0; text-decoration: none; font-weight: normal; }
 h4 { font-size: 18px; color: #000; margin: 0 0 10px 0; padding: 0; }
@@ -352,7 +352,8 @@ ul li a { font-weight: normal; text-decoration: none; }
 	width: 260px;
 	height: 246px;
 	padding: 20px 30px;
-	background: url(images/testimonial_newsletter.png) no-repeat;
+	background: url(images/pc.jpeg) no-repeat;
+	background-size: cover;
 }
 
 #testimonial {
