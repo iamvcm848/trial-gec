@@ -16,7 +16,8 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
-
+    <link rel="stylesheet"  href="swiper.css">
+    <script src="swiper.js"></script>
 <style>
 .styled {
     border: 0;
@@ -131,6 +132,28 @@ marquee{
     color:#fff
 }
 
+#pro{
+  background-color: white;
+  height:100%;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom:30px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.details{
+  background-color:whitesmoke;
+  margin-top:270px;
+}
+
 </style>
 </head>
 <body>
@@ -169,60 +192,141 @@ marquee{
 
 <br>
 
-<div class="row">
-    <div class="col-sm-1">
 
-    </div>
-    <div class="col-sm-6">
+<!-- hello -->
+
+<section id="pro">
     
-        <div class="row">
-            <div id="templatemo_content">
-
-                <table >
-                  <tr border="0">
-                   <td border="0"><a class="block" href="https://goaonline.gov.in/beds" role="button" >Beds</a></td>
-                   <td border="0"><a class="block" href="doc.html"class="favorite styled"        type="button">Doctors </button></td>
-                   <td><a class="block" href="amb.html"class="favorite styled"        type="button">Ambulance</button></td>
-                       <td><a class="block" href="amb.html"class="favorite styled"        type="button">Hospitals</button></td>
-                       <tr>
-                               <td><a class="block" href="med.html"class="favorite styled"        type="button">Medicines</button></td>
-                                <td><a class="block" href="dis.html"class="favorite styled"         type="button">Disinfection </button></td>
-                                <td><a class="block" href="oxy.html"class="favorite styled"        type="button">Oxygen</button></td>
-                 
-               
-                   <td><a class="block" href="pla.html"class="favorite styled"        type="button">Plasma</button></td></tr>
-                   <tr>
-                   <td><a class="block" href="blo.html "class="favorite styled"        type="button">Blood_Bank</button></td>
-                  <td><a class="block"href="https://www.cowin.gov.in/home" class="favorite styled"  type="button">Vaccines</button></td>
-                   <td><a class="block" href="foo.html"class="favorite styled"        type="button">Food</button></td>
-                    <td><a class="block" href="men.html"class="favorite styled"        type="button">Mental_Health</button> </td></tr>
-                    <tr>
-                       <td><a class="block" href="https://www.goa.gov.in/covid-19/ "class="favorite styled"        type="button">Govt_Not</button> </td>
-                       <td><a class="block" href="cre.html"class="favorite styled"         type="button">     Crematorium  </button>  </td>
-                      <td><a class="block" href="vet.html"class="favorite styled"        type="button">Vets</button> </td>
-                          <td><a class="block" href="cov.html"class="favorite styled"        type="button">Covid_Testing</button> </td>
-                      </tr>
-                      <tr>
-                       <td> </td>
-                       <td><a class="block" href="ct.html"class="favorite styled"        type="button">Care_Takers</button> </td> 
-                   
-                       <td><a class="block" href="https://www.google.com/maps/d/u/2/edit?mid=1JwGBqcYRBHM-C4wC-L60HUfdKteET0MR&usp=sharing"type="button">Hospital_Map</button> </td>
-                    
-                 </tr>
-                  
-                  </table>
-                   </div> <!-- end of content -->
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(new-images/oxygen.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Oxygen Distributors</a></center>  
+                <center><strong></strong></center>
+              </div>  </div>
+            <div class="swiper-slide" style="background-image:url(new-images/ambulance.jpg)">    
+              <div class="details">
+               <center><a href="https://www.w3schools.com">Ambulance Info</a></center> 
+               <center><strong></strong></center>
+              </div>             </div>
+            <div class="swiper-slide" style="background-image:url(new-images/beds.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Bed Availability</a></center>  
+               <center><strong></strong></center>
+              </div>  </div>
+            <div class="swiper-slide" style="background-image:url(new-images/medicine.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Medicine Info</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              
+              <div class="swiper-slide" style="background-image:url(new-images/crematorium.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Crematorium Info</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/vaccine.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Vaccine Info</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/test.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Covid Tesing</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/plasma.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Plasma</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/food.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Food </a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/mental.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Mental Health</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/vet.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Vet</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/care.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Caretaker Info</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/blood.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Blood Bank</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/doctor.jfif)"><div class="details">
+                <center><a href="https://www.w3schools.com">Doctor Info</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/hospital.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Hospital Info</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/disinfect.jpeg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Disinfection</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/map.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Hospital Map</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+              <div class="swiper-slide" style="background-image:url(new-images/govt.jpg)"><div class="details">
+                <center><a href="https://www.w3schools.com">Govt Website</a></center> 
+                <center><strong></strong></center>
+              </div>  </div>
+       
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
         </div>
-    </div>
-    <div class="col-sm-1"></div>
-    <div class="col-sm-4 " >
-   
-        <img class="rcorners" src="1.png" alt="image" />
-    </div>
-    </div>
-    <br>
-    <marquee>WE AT GEC ARE IN THIS TOGETHER.</marquee>
-    <br><br>
+  
+ 
+  
+    
+       
+    
+
+<!-- Swiper JS -->
+
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows : true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+</script>             
+</section>
+
+
+
+
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <center>
@@ -437,14 +541,125 @@ function toogleDataSeries(e){
 </body>
   <marquee bgcolor="#d9d9ff"> <a href="https://play.google.com/store/apps/details?id=com.cocstudiosgoa.goacoronaApp"><h6>GOA GOVT LAUNCHES CORONA APP. FOR BED AVAILABILITY -> CLICK TO DOWNLOAD APP FROM PLAYSTORE</marquee><P></p>
 
+
+   
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="row">
+                <h2><font color="red">Welcome to <span>GEC-Covid-Care</font></span></h2>
+                <p> We at GEC are in this together. Stay Strong India. We will get through this.</p>
+                <div class="col-sm-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/templatemo_image_02.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/templatemo_image_03.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <br>
+                <font color="blue"><h3>Directory of Covid related Officials South Goa District</h3></font>
+                <a href="images/refer.pdf"><button type="button" class="btn btn-info">Click here to view</button></a>
+            </div>
+            <br>
+            <div class="row">
+                <br>
+               <div class="col-sm-4">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/jcn1-9HxwPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+<br><p></p>
+
+            </div>
+            <button onclick="window.location.href='https://www.mohfw.gov.in/';"class="favorite styled"         type="button">MOHFW Site -></button>
+    
+        </div>
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-sm-4">
+            <div class="row">
+                <h2>Latest <span>News</span></h2>
+            </div>
+            <div class="row">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/sym1.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/2.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/3.png" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
 <div id="templatemo_content_wrapper">
 	
     <div id="templatemo_content">
     	
         <h2><font color="red">Welcome to <span>GEC-Covid-Care</font></span></h2>
         
-    
-        <div class="readmore"><a href="#"></a></div>
         <p> We at GEC are in this together. Stay Strong India. We will get through this.
         <div class="cleaner_h40"></div>
         
