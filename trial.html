@@ -15,7 +15,7 @@
 
         #c1{
             font-size:30px;
-            color: blue;
+            background-color: blue;
         }
     </style>
       <link rel="stylesheet" href="icons/css/font-awesome.min.css">
@@ -45,10 +45,15 @@
 <i ONCLICK="ShowAndHide()" class="fa fa-times" aria-hidden="true"></i>
     </DIV>
     <div id="c1">
-        <i ONCLICK="ShowAndHide()" style="size:30px;" class="fa fa-commenting" aria-hidden="true"></i>
+        <i ONCLICK="PopWindowOne()" style="size:30px;" class="fa fa-commenting" aria-hidden="true"></i>
     </div>
       
     <script>
+
+function PopWindowOne()
+{
+    floatingWindow = window.open("index.html","","height=200,width=400,scrollbars=no");
+}
        
 
         function ShowAndHide() {
