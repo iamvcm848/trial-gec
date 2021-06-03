@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet"  href="swiper.css">
     <script src="swiper.js"></script>
+    <link rel="stylesheet" href="icons/css/font-awesome.min.css">
 <style>
 .styled {
     border: 0;
@@ -254,6 +255,15 @@ marquee{
   margin:2px;
 }
 
+#SectionName{
+        font-size:30px;
+      }
+
+        #c1{
+            font-size:60px;
+            color: blue;
+        }
+
 </style>
 </head>
 <body >
@@ -296,8 +306,8 @@ marquee{
 <div class="row">
   <div class="col-sm-8" id="bc4">
    <p id="p4">
-    <p id="p1"> <u>COVID-19</u></p>
-    <p id="p2">We're with you</p>
+    <p id="p1"> <u><i class="fa fa-snowflake-o" aria-hidden="true"></i>  COVID-19</u></p>
+    <p id="p2"> We're with you</p>
     <p id="p3">Support and solutions to help you care for COVID-19 patients.</p>
    </p>
 
@@ -816,19 +826,44 @@ function toogleDataSeries(e){
           
     </div>
     <div class="col-sm-2">
-        <div id="sfcy4h5cajbtj1klj5k1fltrne6uwt664xp"></div><script type="text/javascript" src="https://counter6.stat.ovh/private/counter.js?c=y4h5cajbtj1klj5k1fltrne6uwt664xp&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="website hit counter"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=y4h5cajbtj1klj5k1fltrne6uwt664xp" border="0" title="website hit counter" alt="website hit counter"></a></noscript>
+
+      <div id="sfcy4h5cajbtj1klj5k1fltrne6uwt664xp"></div>
+      <script type="text/javascript" src="https://counter6.stat.ovh/private/counter.js?c=y4h5cajbtj1klj5k1fltrne6uwt664xp&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="website hit counter"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=y4h5cajbtj1klj5k1fltrne6uwt664xp" border="0" title="website hit counter" alt="website hit counter"></a></noscript>
 <script>(function(w, d) { w.CollectId = "60a69e08154f895c94bb96ae"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 
-    </div>
+  </div>
 </div>
 <br>
 
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/e66be676-2698-436a-8beb-81dab2710eab">
+<DIV ID="SectionName" STYLE="display:none">
+       
+  <iframe
+allow="microphone;"
+width="350"
+height="430"
+src="https://console.dialogflow.com/api-client/demo/embedded/e66be676-2698-436a-8beb-81dab2710eab">
 </iframe>
+
+<i ONCLICK="ShowAndHide()" class="fa fa-times" aria-hidden="true"></i>
+</DIV>
+Chat with us now
+<div id="c1">
+  <i ONCLICK="ShowAndHide()" style="size:30px;" class="fa fa-commenting" aria-hidden="true"></i>
+</div>
+
+<script>
+ 
+
+  function ShowAndHide() {
+var x = document.getElementById('SectionName');
+if (x.style.display == 'none') {
+  x.style.display = 'block';
+} else {
+  x.style.display = 'none';
+}
+}
+
+</script>
 
     <div class="row">
         <div class="col-sm-12" id="ft">

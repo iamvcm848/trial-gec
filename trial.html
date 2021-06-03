@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+  
+<head>
+    <title>
+        How to hide div element by default
+        and show it on click using 
+        JavaScript and Bootstrap ?
+    </title>
+      
+    <style>
+      #SectionName{
+        font-size:30px;
+      }
+
+        #c1{
+            font-size:30px;
+            color: blue;
+        }
+    </style>
+      <link rel="stylesheet" href="icons/css/font-awesome.min.css">
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+</head>
+  
+<body style="text-align:center;">
+      
+    
+    
+
+
+    <DIV ID="SectionName" STYLE="display:none">
+       
+        <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/e66be676-2698-436a-8beb-81dab2710eab">
+</iframe>
+    
+<i ONCLICK="ShowAndHide()" class="fa fa-times" aria-hidden="true"></i>
+    </DIV>
+    <div id="c1">
+        <i ONCLICK="ShowAndHide()" style="size:30px;" class="fa fa-commenting" aria-hidden="true"></i>
+    </div>
+      
+    <script>
+       
+
+        function ShowAndHide() {
+    var x = document.getElementById('SectionName');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+    </script>
+</body>
+  
+</html>
